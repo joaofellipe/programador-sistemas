@@ -16,6 +16,12 @@ public class ExemploClasseMath {
 			sen = Math.sin(Math.toRadians(a));
 			cos = Math.cos(Math.toRadians(a));
 			tan = Math.tan(Math.toRadians(a));
+			System.out.println("Seno: " + sen);
+			System.out.println("cosseno: " + cos);
+			System.out.println("Tangente: " + tan);
+
+			double raiz = Math.sqrt(4);
+			System.out.println("Raiz quadrada de 4 é " + raiz);
 		}
 	}
 
